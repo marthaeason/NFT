@@ -1,0 +1,118 @@
+/*  Basic Styles  */
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: Outfit;
+}
+
+h1,
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+h1 {
+  font-size: larger;
+}
+
+p,
+.clock-icon {
+  color: hsl(215, 51%, 70%);
+}
+
+.ethereum-icon {
+  color: hsl(178, 100%, 50%);
+}
+
+footer {
+  color: hsl(215, 51%, 70%);
+}
+
+.eq-image {
+  width: 275px;
+  height: 275px;
+  border-radius: 12px;
+}
+
+.profile-image {
+  height: 30px;
+  width: 30px;
+}
+
+/* BODY CONTAINER  */
+
+.body-container {
+  max-width: 1440px;
+  min-width: 375px;
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  NFT CARD  */
+
+.NFT-card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 12px;
+  height: 540px;
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.image-container {
+  display: flex;
+  min-width: 100%;
+  justify-content: center;
+}
+
+.title-child {
+  width: 275px;
+}
+
+.description-child {
+  width: 275px;
+  margin-bottom: 10px;
+}
+
+.icon-container {
+  display: flex;
+  width: 275px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.profile-container {
+  display: flex;
+  width: 275px;
+  align-items: center;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.profile-child {
+  padding: 10px;
+}
+
+/*  States  */
+
+.image-link:hover {
+  background-color: aqua;
+  opacity: 0.8;
+  z-index: 5;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
