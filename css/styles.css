@@ -66,6 +66,23 @@ footer {
   display: flex;
   min-width: 100%;
   justify-content: center;
+  display: flex;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgb(0, 255, 247, 0.5);
+  height: 275px;
+  width: 275px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.overlay:hover {
+  z-index: 2;
 }
 
 .title-child {
@@ -97,10 +114,14 @@ footer {
 
 /*  States  */
 
+.image-link {
+  opacity: 1;
+  transition: ease 0.5s;
+  z-index: 2;
+}
+
 .image-link:hover {
-  background-color: aqua;
-  opacity: 0.8;
-  z-index: 5;
+  opacity: 0.5;
   cursor: pointer;
 }
 
